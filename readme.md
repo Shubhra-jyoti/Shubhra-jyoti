@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=45&pause=1000&color=007BFF&center=true&vCenter=true&width=600&height=100&lines=SHUBHRA+JYOTI;SOFTWARE+ENGINEER" alt="Name Header" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=45&pause=1000&color=007BFF&center=true&vCenter=true&width=600&height=100&lines=SHUBHRA+JYOTI" alt="Name Header" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=800&color=36BCF7&center=true&vCenter=true&width=500&lines=FRONTEND+DEVELOPER;PYTHON+ENTHUSIAST;JAVA+DEVELOPER;JAVASCRIPT+EXPERT;SQL+%26+DATABASES" alt="Typing SVG" />
