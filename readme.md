@@ -25,6 +25,5 @@ class Shubhra:
     def __init__(self):
         self.university = "L.J. University, Ahmedabad"
         self.role       = "Computer Science Engineering Student"
-        self.status     = "Currently building Git Yodha ⚔️"
+        self.status     = "Currently building prism"
         self.focus      = ["Frontend Architecture", "AI Security", "MLOps"]
-        self.motto      = "Turning caffeine into code."
