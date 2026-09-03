@@ -242,22 +242,7 @@ Zustand for blazing-fast client state.
 <div align="center">
 
 <a href="https://github.com/Shubhra-jyoti">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shubhra-jyoti&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=D4A843&icon_color=D4A843&text_color=c9d1d9&border_color=D4A843&hide_border=false&ring_color=FFD700&cache_seconds=86400" alt="GitHub Stats"/>
-</a>
-<a href="https://github.com/Shubhra-jyoti">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shubhra-jyoti&layout=compact&theme=github_dark&bg_color=0d1117&title_color=D4A843&text_color=c9d1d9&border_color=D4A843&hide_border=false&cache_seconds=86400" alt="Top Languages"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Shubhra-jyoti">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shubhra-jyoti&theme=dark&background=0d1117&ring=D4A843&fire=FFD700&currStreakLabel=D4A843&sideLabels=D4A843&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&border=D4A843" alt="GitHub Streak"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Shubhra-jyoti">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhra-jyoti&bg_color=0d1117&color=D4A843&line=FFD700&point=D4A843&area=true&area_color=D4A84330&hide_border=false&custom_title=Contribution%20Rune%20Arc" alt="Activity Graph"/>
 </a>
 
 </div>
