@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60">
+  <defs>
+    <filter id="glowText">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="60" fill="#0d1117"/>
+  
+  <!-- Line 1 -->
+  <text x="400" y="24" text-anchor="middle" font-family="'Segoe UI', 'Courier New', monospace" font-size="13" fill="#D4A843" filter="url(#glowText)" opacity="0">
+    ✦  I am the All-Knowing.  ✦
+    <animate attributeName="opacity" values="0;0;1;1;1;1;0.7;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Line 2 -->
+  <text x="400" y="46" text-anchor="middle" font-family="'Segoe UI', 'Courier New', monospace" font-size="12" fill="#8b949e" opacity="0">
+    And I shall render you your judgment.
+    <animate attributeName="opacity" values="0;0;0;1;1;1;0.7;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Blinking cursor -->
+  <rect x="558" y="34" width="2" height="14" fill="#FFD700" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;1;0;1;0;1;0" dur="1.2s" repeatCount="indefinite" begin="3s"/>
+  </rect>
+</svg>

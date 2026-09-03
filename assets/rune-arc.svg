@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <defs>
+    <linearGradient id="runeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#D4A843;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:0.8" />
+      <stop offset="80%" style="stop-color:#D4A843;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="120" fill="#0d1117"/>
+
+  <!-- Animated golden particle field -->
+  <circle cx="50" cy="60" r="1.5" fill="#D4A843" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="cy" values="80;40" dur="3s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="150" cy="70" r="1" fill="#FFD700" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" values="90;30" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="250" cy="50" r="1.5" fill="#D4A843" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" values="70;20" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="350" cy="80" r="1" fill="#FFD700" opacity="0">
+    <animate attributeName="opacity" values="0;0.9;0" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
+    <animate attributeName="cy" values="100;35" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="450" cy="55" r="2" fill="#D4A843" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="cy" values="75;25" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="550" cy="65" r="1" fill="#FFD700" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="cy" values="85;30" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="650" cy="45" r="1.5" fill="#D4A843" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="cy" values="65;15" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <circle cx="750" cy="75" r="1" fill="#FFD700" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="cy" values="95;40" dur="3.5s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+
+  <!-- Central Elden Ring fracture symbol -->
+  <g transform="translate(400,60)" filter="url(#glow)">
+    <!-- Outer ring -->
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#D4A843" stroke-width="1.5" opacity="0.4">
+      <animate attributeName="r" values="28;32;28" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Inner ring -->
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="16;20;16" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Core -->
+    <circle cx="0" cy="0" r="4" fill="#FFD700" opacity="0.8">
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Fracture lines radiating outward -->
+    <line x1="0" y1="-30" x2="0" y2="-45" stroke="#D4A843" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="26" y1="-15" x2="39" y2="-22" stroke="#D4A843" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+    <line x1="26" y1="15" x2="39" y2="22" stroke="#D4A843" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </line>
+    <line x1="0" y1="30" x2="0" y2="45" stroke="#D4A843" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </line>
+    <line x1="-26" y1="15" x2="-39" y2="22" stroke="#D4A843" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </line>
+    <line x1="-26" y1="-15" x2="-39" y2="-22" stroke="#D4A843" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="2.5s"/>
+    </line>
+  </g>
+
+  <!-- Left decorative rune line -->
+  <line x1="80" y1="60" x2="330" y2="60" stroke="url(#runeGlow)" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
+  </line>
+  <!-- Right decorative rune line -->
+  <line x1="470" y1="60" x2="720" y2="60" stroke="url(#runeGlow)" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+  </line>
+
+  <!-- Small rune diamonds along lines -->
+  <rect x="130" y="57" width="6" height="6" fill="#D4A843" transform="rotate(45,133,60)" opacity="0.4" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite" begin="0.2s"/>
+  </rect>
+  <rect x="220" y="57" width="6" height="6" fill="#D4A843" transform="rotate(45,223,60)" opacity="0.4" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+  </rect>
+  <rect x="570" y="57" width="6" height="6" fill="#D4A843" transform="rotate(45,573,60)" opacity="0.4" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite" begin="1.4s"/>
+  </rect>
+  <rect x="660" y="57" width="6" height="6" fill="#D4A843" transform="rotate(45,663,60)" opacity="0.4" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite" begin="2s"/>
+  </rect>
+</svg>
