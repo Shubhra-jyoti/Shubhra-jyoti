@@ -242,10 +242,10 @@ Zustand for blazing-fast client state.
 <div align="center">
 
 <a href="https://github.com/Shubhra-jyoti">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Shubhra-jyoti&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=D4A843&icon_color=D4A843&text_color=c9d1d9&border_color=D4A843&hide_border=false&ring_color=FFD700" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shubhra-jyoti&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=D4A843&icon_color=D4A843&text_color=c9d1d9&border_color=D4A843&hide_border=false&ring_color=FFD700&cache_seconds=86400" alt="GitHub Stats"/>
 </a>
 <a href="https://github.com/Shubhra-jyoti">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubhra-jyoti&layout=compact&theme=github_dark&bg_color=0d1117&title_color=D4A843&text_color=c9d1d9&border_color=D4A843&hide_border=false" alt="Top Languages"/>
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shubhra-jyoti&layout=compact&theme=github_dark&bg_color=0d1117&title_color=D4A843&text_color=c9d1d9&border_color=D4A843&hide_border=false&cache_seconds=86400" alt="Top Languages"/>
 </a>
 
 <br/><br/>
@@ -257,7 +257,7 @@ Zustand for blazing-fast client state.
 <br/><br/>
 
 <a href="https://github.com/Shubhra-jyoti">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhra-jyoti&bg_color=0d1117&color=D4A843&line=FFD700&point=D4A843&area=true&area_color=D4A84330&hide_border=false&custom_title=✦%20Contribution%20Rune%20Arc%20✦" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhra-jyoti&bg_color=0d1117&color=D4A843&line=FFD700&point=D4A843&area=true&area_color=D4A84330&hide_border=false&custom_title=Contribution%20Rune%20Arc" alt="Activity Graph"/>
 </a>
 
 </div>
